@@ -1,23 +1,70 @@
+/* 全局设置 */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
 }
+
+/* 页首样式 */
 header {
-  background: #333;
+  background: linear-gradient(135deg, #1f1f1f, #444);
   color: #fff;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
+
+/* 标题和简介居中美化 */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+/* 内容块：增加卡片样式 */
 section {
-  padding: 20px;
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
+
+/* 小标题样式 */
 h2 {
-  color: #444;
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 15px;
 }
+
+/* 技能列表 */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e7f0ff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* 链接样式 */
 a {
-  color: #0066cc;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
